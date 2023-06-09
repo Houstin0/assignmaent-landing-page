@@ -1,0 +1,38 @@
+body{
+    margin: 1;
+    padding: 1;
+ background-color: darkgrey
+ 
+}
+#page{
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    gap: 800px;
+    box-shadow: rgb(7, 158, 27);
+    background-color: rgb(6, 6, 119);
+}
+.logo {
+font-size: larger;
+font-weight: bolder;
+font-style: italic;
+}
+span{
+    color: rgb(255, 251, 251);
+}
+.navbar nav{
+    display: flex;
+    gap: 20px;
+    font-size: medium;
+}
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
