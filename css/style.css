@@ -19,9 +19,6 @@ font-size: larger;
 font-weight: bolder;
 font-style: italic;
 }
-span{
-    color: rgb(255, 251, 251);
-}
 .navbar nav{
     display: flex;
     gap: 20px;
@@ -32,8 +29,13 @@ a {
     font-weight: 400;
     color: rgb(0, 0, 0);
 }
+h1{
+    text-align: center;
+}
 #home{
     padding-top: 1px;
+    display: flex;
+    flex-direction: row;
 }
 #home h1{
     text-align: center;
@@ -42,8 +44,3 @@ a {
 display: flex;
 flex-direction: row;
 }
-#skills{
-    padding-left: 10px;
-    justify-content: right;
-}
-
